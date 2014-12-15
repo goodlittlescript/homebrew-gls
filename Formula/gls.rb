@@ -2,16 +2,18 @@ require "formula"
 
 class Gls < Formula
   homepage "https://github.com/goodlittlescript/gls"
-  url "https://github.com/goodlittlescript/gls/archive/v1.0.0.tar.gz"
-  sha1 "0bbd7d686c97242a2d4b9da243942d4777ba626f"
-  version "1.0.0"
+  url "https://github.com/goodlittlescript/gls/archive/v1.0.1.tar.gz"
+  sha1 "f0d41cd6af11c3dad7667387ad049a2f78a4e840"
+  version "1.0.1"
+
+  def core; prefix+'core' end
 
   def install
-    FileUtils.mkdir_p bin
-    FileUtils.cp "bin/gls", bin
+    FileUtils.cp_r "bin", bin
+    FileUtils.cp_r "core", core
 
-    # FileUtils.mkdir_p man1
-    # FileUtils.cp "man/man1/gls.1", man1
+    FileUtils.mkdir_p man1
+    FileUtils.cp "man/man1/gls.1", man1
   end
 
   test do
