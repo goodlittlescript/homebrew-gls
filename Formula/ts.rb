@@ -2,9 +2,9 @@ require "formula"
 
 class Ts < Formula
   homepage "https://github.com/thinkerbot/ts"
-  url "https://github.com/thinkerbot/ts/archive/v2.0.0.tar.gz"
-  sha1 "5fb3b981da5ff9f750582eea7f3d0d1f3dea0dae"
-  version "2.0.0"
+  url "https://github.com/thinkerbot/ts/archive/v2.0.1.tar.gz"
+  sha1 "994078348f8e92273e28d1bebd45efaac0859833"
+  version "2.0.1"
 
   def install
     FileUtils.mkdir_p bin
