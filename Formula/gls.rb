@@ -2,7 +2,7 @@ require "formula"
 
 class Gls < Formula
   homepage "https://github.com/goodlittlescript/gls"
-  url "https://github.com/goodlittlescript/gls/archive/v1.0.2.tar.gz"
+  url "https://github.com/goodlittlescript/gls/archive/1.0.2.tar.gz"
   sha1 "32be1f150048db80c79ca3aa34f85705feece735"
   version "1.0.2"
 
