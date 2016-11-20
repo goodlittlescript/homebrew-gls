@@ -3,7 +3,7 @@ require "formula"
 class Timeseries < Formula
   homepage "https://github.com/goodlittlescript/timeseries"
   url "https://github.com/goodlittlescript/timeseries/archive/v1.0.0.tar.gz"
-  sha256 "ad58b9a1f9e57f278917d150f7d0c937129c1cf2"
+  sha256 "60fed9bb2e94e50d7cbe34a7ef37a326b22ff1a7cf321732804943ecd0da7e0b"
   version "1.0.0"
 
   def install

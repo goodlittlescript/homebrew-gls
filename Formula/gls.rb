@@ -3,7 +3,7 @@ require "formula"
 class Gls < Formula
   homepage "https://github.com/goodlittlescript/gls"
   url "https://github.com/goodlittlescript/gls/archive/1.0.2.tar.gz"
-  sha256 "32be1f150048db80c79ca3aa34f85705feece735"
+  sha256 "5c971ae5d8d22c5c9a611dc82ed06b8fc6962f7e571d40675dfaaac17c0f5e33"
   version "1.0.2"
 
   def core; prefix+'core' end

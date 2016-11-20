@@ -3,7 +3,7 @@ require "formula"
 class Ts < Formula
   homepage "https://github.com/thinkerbot/ts"
   url "https://github.com/thinkerbot/ts/archive/v2.0.1.tar.gz"
-  sha256 "994078348f8e92273e28d1bebd45efaac0859833"
+  sha256 "14f8282854d176d3764b4734fa763c839fbe179b53a40ef093dd425782eafe26"
   version "2.0.1"
 
   def install
