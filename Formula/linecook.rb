@@ -15,8 +15,4 @@ class Linecook < Formula
     FileUtils.mkdir_p man1
     FileUtils.cp "man/man1/linecook.1", man1
   end
-
-  test do
-    system "#{bin}/linecook -e \"#{bin}/linecook -X\""
-  end
 end
