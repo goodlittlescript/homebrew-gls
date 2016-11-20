@@ -2,15 +2,14 @@ require "formula"
 
 class Linecook < Formula
   homepage "https://github.com/goodlittlescript/linecook"
-  url "https://github.com/goodlittlescript/linecook/archive/v1.0.0.tar.gz"
-  sha256 "db36c28e6e19821784724d378474c1bbe002bd818f96ea936623fe26d76c250c"
-  version "1.0.0"
+  url "https://github.com/goodlittlescript/linecook/archive/v1.0.1.tar.gz"
+  sha256 "dce776e55678cc9531f870ca3eea82ac6683ac607a1cd15195abb165da5f4241"
+  version "1.0.1"
 
   def install
     FileUtils.mkdir_p bin
     FileUtils.cp "bin/linecook", bin
 
-    FileUtils.mkdir_p lib
     FileUtils.cp_r "lib", lib
 
     FileUtils.mkdir_p man1
