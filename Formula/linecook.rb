@@ -10,6 +10,9 @@ class Linecook < Formula
     FileUtils.mkdir_p bin
     FileUtils.cp "bin/linecook", bin
 
+    FileUtils.mkdir_p lib
+    FileUtils.cp_r "lib", lib
+
     FileUtils.mkdir_p man1
     FileUtils.cp "man/man1/linecook.1", man1
   end
