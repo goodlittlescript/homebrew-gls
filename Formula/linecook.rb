@@ -2,9 +2,9 @@ require "formula"
 
 class Linecook < Formula
   homepage "https://github.com/goodlittlescript/linecook"
-  url "https://github.com/goodlittlescript/linecook/archive/v1.0.1.tar.gz"
-  sha256 "dce776e55678cc9531f870ca3eea82ac6683ac607a1cd15195abb165da5f4241"
-  version "1.0.1"
+  url "https://github.com/goodlittlescript/linecook/archive/v1.0.2.tar.gz"
+  sha256 "b2374442922bed7c7b286e0ef307bbd4f090c8ae85e493a56f8882f596cb629e"
+  version "1.0.2"
 
   def install
     FileUtils.mkdir_p bin
